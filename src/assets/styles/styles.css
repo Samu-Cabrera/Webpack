@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('https://img.freepik.com/vector-gratis/circuitos-fondo-digital-degradado-azul-rojo_23-2148821701.jpg?w=740&t=st=1665397537~exp=1665398137~hmac=602ce80df4760b253a98fe9697dc8282344f57df3a253dea6e32dc82331fa3ad');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Poppins', 'Arial';
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    backdrop-filter: blur(10px);
+}
+h1 {
+    font-size: 2rem;
+    color: #f2f2f2;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+.container img {
+    width: 700px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,.2);
+    box-shadow: 5px 5px 12px rgba(0,0,0,.3), -4px -4px 10px rgba(255,255,255,.2);
+}
